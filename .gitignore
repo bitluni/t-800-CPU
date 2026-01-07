@@ -1,0 +1,10 @@
+code
+RP2350
+/PCB/RP2354
+/PCB/RP2354_Cluster
+/PCB/RP2354A_Cluster/jlcpcb
+/PCB/RP2354A_Cluster/production
+/PCB/RP2354A_Cluster/RP2354A_Cluster-backups
+/PCB/RP2354A_Cluster/*.lck
+/PCB/RP2354A_Cluster/fabrication-toolkit-options.json
+/PCB/RP2354A_Cluster/fp-info-cache
