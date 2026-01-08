@@ -2695,6 +2695,24 @@
 		(at 30.48 41.91)
 		(uuid "f3d2b627-5f62-4038-8de8-4c4e2eac306c")
 	)
+	(bus_entry
+		(at 71.12 12.7)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a3e6ee-69aa-4dd2-a49e-f5b1b511d23f")
+	)
+	(bus_entry
+		(at 119.38 31.75)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95eec8f1-aa3c-45f0-b10b-eb47f2f5a7ca")
+	)
 	(wire
 		(pts
 			(xy 107.95 22.86) (xy 110.49 22.86)
