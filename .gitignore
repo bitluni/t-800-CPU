@@ -8,3 +8,5 @@ RP2350
 /PCB/RP2354A_Cluster/*.lck
 /PCB/RP2354A_Cluster/fabrication-toolkit-options.json
 /PCB/RP2354A_Cluster/fp-info-cache
+PCB/RP2354A_Cluster/#auto_saved_files#
+PCB/RP2354A_Cluster/_autosave-RP2354A_Cluster.kicad_sch

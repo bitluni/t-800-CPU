@@ -2242,6 +2242,12 @@
 		(uuid "18cfb691-2029-46d6-a155-8807dc923278")
 	)
 	(junction
+		(at 50.8 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bc42e6b-a6be-4d43-9396-d356a4308e8b")
+	)
+	(junction
 		(at 118.11 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2294,6 +2300,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5adf1835-4472-4eba-8b07-d4447e563d0b")
+	)
+	(junction
+		(at 53.34 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "652570da-3dd0-46da-aa03-0d040eb0d69c")
+	)
+	(junction
+		(at 45.72 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ff459aa-aa84-44e9-9959-da742e43b099")
 	)
 	(junction
 		(at 66.04 21.59)
@@ -2362,6 +2380,12 @@
 		(uuid "bd49b8c0-b996-4493-8968-c378c532ba1f")
 	)
 	(junction
+		(at 45.72 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7e10ab0-37de-4aa1-b88b-98b53454391b")
+	)
+	(junction
 		(at 22.86 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2386,28 +2410,12 @@
 		(uuid "24ccfed3-fd97-4431-abc0-4d9d124a3422")
 	)
 	(no_connect
-		(at 53.34 34.29)
-		(uuid "6b632252-948c-4aa1-9cc8-e56d822a1661")
-	)
-	(no_connect
-		(at 53.34 36.83)
-		(uuid "8148e61d-ae49-4216-bbc0-2fd501f78ed5")
-	)
-	(no_connect
 		(at 53.34 139.7)
 		(uuid "8215d978-52a9-4f70-809b-3b198a61e539")
 	)
 	(no_connect
 		(at 53.34 144.78)
 		(uuid "d0115d2c-483b-4125-ba54-4adea1a5aa39")
-	)
-	(no_connect
-		(at 53.34 44.45)
-		(uuid "d752c336-0e6c-4665-9718-dba67cf63c49")
-	)
-	(no_connect
-		(at 53.34 39.37)
-		(uuid "e4253e78-21d5-4d4b-9b82-6b80ef768ff9")
 	)
 	(no_connect
 		(at 53.34 142.24)
@@ -2422,6 +2430,16 @@
 			(type default)
 		)
 		(uuid "033925c6-58d1-42e1-bbd1-62567599d1a9")
+	)
+	(wire
+		(pts
+			(xy 50.8 44.45) (xy 53.34 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05949727-dde6-4de0-b462-88863b40ec5b")
 	)
 	(wire
 		(pts
@@ -2522,6 +2540,16 @@
 			(type default)
 		)
 		(uuid "3bf90ae0-c85a-4e17-8342-4efedd2c3566")
+	)
+	(wire
+		(pts
+			(xy 53.34 34.29) (xy 53.34 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd07956-91a6-456c-bfbf-dbef13f18230")
 	)
 	(wire
 		(pts
@@ -2735,6 +2763,26 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 36.83) (xy 53.34 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbdcd678-7c86-4bda-bab1-04663f0c08d4")
+	)
+	(wire
+		(pts
+			(xy 53.34 39.37) (xy 50.8 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d663f29d-e42f-4936-8d6b-facd36f2dba5")
+	)
+	(wire
+		(pts
 			(xy 129.54 21.59) (xy 118.11 21.59)
 		)
 		(stroke
@@ -2782,6 +2830,26 @@
 			(type default)
 		)
 		(uuid "f3d06118-6865-4dc8-b959-c53e19e6c802")
+	)
+	(wire
+		(pts
+			(xy 50.8 39.37) (xy 50.8 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f513042a-9fad-49e6-98c3-977e31be0657")
+	)
+	(wire
+		(pts
+			(xy 45.72 44.45) (xy 50.8 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f73a5eb9-e545-4608-8c3d-ba78713c2f68")
 	)
 	(hierarchical_label "GPIO10"
 		(shape input)
@@ -3493,6 +3561,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 45.72 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33799579-7245-4dae-9fb6-73d2cf0928e5")
+		(property "Reference" "#PWR076"
+			(at 45.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 45.72 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 45.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7281fd5-4a72-43f2-b72a-379c55321f37")
+		)
+		(instances
+			(project "RP2354A_Cluster"
+				(path "/d629b5f7-8cfa-4c25-a223-1c02995cd722/499b58f4-bf9c-43da-882b-ca80d2b119f7"
+					(reference "#PWR076")
+					(unit 1)
+				)
+				(path "/d629b5f7-8cfa-4c25-a223-1c02995cd722/51a52174-be78-4531-9a3a-c003d6fbac95"
+					(reference "#PWR078")
+					(unit 1)
+				)
+				(path "/d629b5f7-8cfa-4c25-a223-1c02995cd722/ba2a46cb-a4c5-4d07-b5d3-a54ab7bed97b"
+					(reference "#PWR077")
+					(unit 1)
+				)
+				(path "/d629b5f7-8cfa-4c25-a223-1c02995cd722/bf1e3c72-f682-42fa-9c36-ab831486702a"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 66.04 25.4 0)
 		(unit 1)
@@ -3652,6 +3798,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 45.72 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53ba91e5-fb47-46b4-828b-a8f773bc701c")
+		(property "Reference" "C78"
+			(at 39.878 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 39.878 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Basics:C_0402_1005Metric"
+			(at 46.6852 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 45.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01c51296-98ce-4441-9803-0acdf8af38ec")
+		)
+		(pin "2"
+			(uuid "c45192f6-1888-400f-9e7f-c91f2380db8c")
+		)
+		(instances
+			(project "RP2354A_Cluster"
+				(path "/d629b5f7-8cfa-4c25-a223-1c02995cd722/499b58f4-bf9c-43da-882b-ca80d2b119f7"
+					(reference "C78")
+					(unit 1)
+				)
+				(path "/d629b5f7-8cfa-4c25-a223-1c02995cd722/51a52174-be78-4531-9a3a-c003d6fbac95"
+					(reference "C80")
+					(unit 1)
+				)
+				(path "/d629b5f7-8cfa-4c25-a223-1c02995cd722/ba2a46cb-a4c5-4d07-b5d3-a54ab7bed97b"
+					(reference "C79")
+					(unit 1)
+				)
+				(path "/d629b5f7-8cfa-4c25-a223-1c02995cd722/bf1e3c72-f682-42fa-9c36-ab831486702a"
+					(reference "C81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 53.34 29.21 0)
 		(unit 1)
@@ -3659,7 +3886,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "56b8f040-1756-45c6-b490-a7a078f03940")
 		(property "Reference" "#PWR063"
 			(at 53.34 35.56 0)
@@ -3671,7 +3897,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 34.29 0)
+			(at 49.53 31.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,6 +4622,83 @@
 				)
 				(path "/d629b5f7-8cfa-4c25-a223-1c02995cd722/bf1e3c72-f682-42fa-9c36-ab831486702a"
 					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7386f7f2-f23c-4fe7-ba0a-d6d9540fa51f")
+		(property "Reference" "#PWR043"
+			(at 45.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90347c90-c247-4d31-847f-c96bdea0a239")
+		)
+		(instances
+			(project "RP2354A_Cluster"
+				(path "/d629b5f7-8cfa-4c25-a223-1c02995cd722/499b58f4-bf9c-43da-882b-ca80d2b119f7"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/d629b5f7-8cfa-4c25-a223-1c02995cd722/51a52174-be78-4531-9a3a-c003d6fbac95"
+					(reference "#PWR074")
+					(unit 1)
+				)
+				(path "/d629b5f7-8cfa-4c25-a223-1c02995cd722/ba2a46cb-a4c5-4d07-b5d3-a54ab7bed97b"
+					(reference "#PWR073")
+					(unit 1)
+				)
+				(path "/d629b5f7-8cfa-4c25-a223-1c02995cd722/bf1e3c72-f682-42fa-9c36-ab831486702a"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
